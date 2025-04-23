@@ -1,0 +1,10 @@
+ Initialize a variable to hold the sum
+sum_of_integers = 0
+
+# Loop through numbers from 101 to 199
+for number in range(101, 200):  # range(101, 200) goes from 101 to 199 inclusive
+    sum_of_integers += number  # Add the number to the sum
+
+# Print the result
+print("The sum of all integers greater than 100 and less than 200 is:", sum_of_integers)
+
